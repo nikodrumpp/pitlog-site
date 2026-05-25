@@ -1,122 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="100%">
   <defs>
-    <radialGradient id="bg_f" cx="38%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#0D0D10"/>
-    </radialGradient>
-    <filter id="gB_f" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="gG_f" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <linearGradient id="cb_f" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1E2A3E"/>
-      <stop offset="40%" stop-color="#152030"/>
-      <stop offset="100%" stop-color="#0D1520"/>
-    </linearGradient>
-    <linearGradient id="rim_f" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#2E3048"/><stop offset="100%" stop-color="#1A1C2E"/>
-    </linearGradient>
-    <linearGradient id="scan_f" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="tl2" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#4B9EFF" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#4B9EFF" stop-opacity="1"/>
-      <stop offset="65%" stop-color="#4B9EFF" stop-opacity="1"/>
-      <stop offset="85%" stop-color="#34D399" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+      <stop offset="6%" stop-color="#4B9EFF" stop-opacity="0.4"/>
+      <stop offset="94%" stop-color="#4B9EFF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4B9EFF" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect width="880" height="280" fill="url(#bg_f)"/>
-  <ellipse cx="320" cy="145" rx="300" ry="200" fill="#4B9EFF" opacity="0.025"/>
-  <ellipse cx="700" cy="145" rx="200" ry="150" fill="#34D399" opacity="0.02"/>
-  <g stroke="#FFF" stroke-opacity="0.018" stroke-width="0.75">
-    <line x1="0" y1="93" x2="880" y2="93"/>
-    <line x1="0" y1="186" x2="880" y2="186"/>
-    <line x1="293" y1="0" x2="293" y2="280"/>
-    <line x1="586" y1="0" x2="586" y2="280"/>
-  </g>
-  <ellipse cx="320" cy="258" rx="200" ry="14" fill="#4B9EFF" opacity="0.18" filter="url(#gB_f)"/>
-  <ellipse cx="320" cy="258" rx="155" ry="7" fill="#4B9EFF" opacity="0.14"/>
-  <ellipse cx="320" cy="243" rx="190" ry="6" fill="#000" opacity="0.5"/>
-  <path d="M 166,242 L 163,225 C 163,208 177,196 193,188 L 220,173 L 238,155 L 256,140 L 386,140 L 406,153 L 428,168 L 460,198 L 478,222 L 480,242 Z" fill="url(#cb_f)" stroke="#4B9EFF" stroke-width="1.5" stroke-opacity="0.48"/>
-  <path d="M 196,242 C 196,237 204,230 218,230 C 232,230 240,237 240,242 Z" fill="#07080E"/>
-  <path d="M 398,242 C 398,237 406,230 420,230 C 434,230 442,237 442,242 Z" fill="#07080E"/>
-  <rect x="172" y="235" width="306" height="6" rx="3" fill="#0A0D18" stroke="#4B9EFF" stroke-width="0.5" stroke-opacity="0.15"/>
-  <path d="M 240,156 L 258,141 L 384,141 L 404,154 L 390,163 L 252,163 Z" fill="#0A0D18"/>
-  <path d="M 242,155 L 259,141 L 383,141 L 402,153 L 388,162 L 254,162 Z" fill="#162438" opacity="0.88"/>
-  <rect x="308" y="143" width="8" height="20" rx="1" fill="#07080E"/>
-  <path d="M 166,218 L 169,200 C 171,196 178,193 186,193 L 194,193 L 194,210 L 168,219 Z" fill="#0A0A14" stroke="#4B9EFF" stroke-width="1" stroke-opacity="0.40"/>
-  <path d="M 168,216 C 170,207 174,200 180,196" fill="none" stroke="#4B9EFF" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.82" filter="url(#gB_f)"/>
-  <circle cx="190" cy="196" r="5" fill="#0A0A14" stroke="#4B9EFF" stroke-width="1" stroke-opacity="0.52"/>
-  <circle cx="190" cy="196" r="3" fill="#4B9EFF" opacity="0.58" filter="url(#gB_f)"/>
-  <circle cx="190" cy="196" r="1.5" fill="#FFFFFF" opacity="0.82"/>
-  <path d="M 470,228 L 476,214 L 480,214 L 480,242 L 470,242 Z" fill="#12080A" stroke="#EF4444" stroke-width="0.75" stroke-opacity="0.38"/>
-  <rect x="471" y="218" width="8" height="4" rx="1.5" fill="#EF4444" opacity="0.80"/>
-  <circle cx="218" cy="248" r="22" fill="#080810" stroke="#1C1C28" stroke-width="1.5"/>
-  <circle cx="218" cy="248" r="16" fill="url(#rim_f)" stroke="#2C2C40" stroke-width="0.75"/>
-  <g stroke="#383850" stroke-width="2.5" stroke-linecap="round">
-    <line x1="218" y1="232" x2="218" y2="240"/><line x1="234" y1="242" x2="226" y2="245"/>
-    <line x1="228" y1="264" x2="223" y2="256"/><line x1="208" y1="264" x2="213" y2="256"/>
-    <line x1="202" y1="242" x2="210" y2="245"/>
-  </g>
-  <circle cx="218" cy="248" r="5.5" fill="#0F0F1A" stroke="#262636" stroke-width="1"/>
-  <circle cx="218" cy="248" r="2" fill="#4B9EFF" opacity="0.38"/>
-  <circle cx="420" cy="248" r="22" fill="#080810" stroke="#1C1C28" stroke-width="1.5"/>
-  <circle cx="420" cy="248" r="16" fill="url(#rim_f)" stroke="#2C2C40" stroke-width="0.75"/>
-  <g stroke="#383850" stroke-width="2.5" stroke-linecap="round">
-    <line x1="420" y1="232" x2="420" y2="240"/><line x1="436" y1="242" x2="428" y2="245"/>
-    <line x1="430" y1="264" x2="425" y2="256"/><line x1="410" y1="264" x2="415" y2="256"/>
-    <line x1="404" y1="242" x2="412" y2="245"/>
-  </g>
-  <circle cx="420" cy="248" r="5.5" fill="#0F0F1A" stroke="#262636" stroke-width="1"/>
-  <circle cx="420" cy="248" r="2" fill="#4B9EFF" opacity="0.38"/>
-  <rect x="565" y="50" width="188" height="58" rx="10" fill="#17171D" stroke="#4B9EFF" stroke-width="1.5" stroke-opacity="0.55"/>
-  <rect x="565" y="50" width="5" height="58" rx="2.5" fill="#4B9EFF" filter="url(#gB_f)"/>
-  <rect x="565" y="50" width="5" height="58" rx="2.5" fill="#4B9EFF"/>
-  <circle cx="584" cy="68" r="6" fill="#34D399" opacity="0.65" filter="url(#gG_f)"/>
-  <circle cx="584" cy="68" r="2.5" fill="#FFFFFF" opacity="0.95"/>
-  <rect x="598" y="58" width="40" height="3" rx="1.5" fill="#8E8E93"/>
-  <rect x="598" y="66" width="96" height="5.5" rx="2.75" fill="#F5F5F7" opacity="0.88"/>
-  <rect x="598" y="77" width="64" height="10" rx="5" fill="#4B9EFF" opacity="0.14" stroke="#4B9EFF" stroke-opacity="0.38" stroke-width="0.75"/>
-  <rect x="603" y="80.5" width="54" height="3" rx="1.5" fill="#4B9EFF" opacity="0.72"/>
-  <rect x="575" y="127" width="168" height="52" rx="10" fill="#17171D" stroke="#34D399" stroke-width="1.5" stroke-opacity="0.52"/>
-  <rect x="575" y="127" width="5" height="52" rx="2.5" fill="#34D399" filter="url(#gG_f)"/>
-  <rect x="575" y="127" width="5" height="52" rx="2.5" fill="#34D399"/>
-  <circle cx="594" cy="146" r="6" fill="#4B9EFF" opacity="0.65" filter="url(#gB_f)"/>
-  <circle cx="594" cy="146" r="2.5" fill="#FFFFFF" opacity="0.95"/>
-  <rect x="608" y="136" width="36" height="3" rx="1.5" fill="#8E8E93"/>
-  <rect x="608" y="144" width="92" height="5.5" rx="2.75" fill="#F5F5F7" opacity="0.88"/>
-  <rect x="608" y="155" width="52" height="10" rx="5" fill="#34D399" opacity="0.14" stroke="#34D399" stroke-opacity="0.38" stroke-width="0.75"/>
-  <rect x="613" y="158.5" width="42" height="3" rx="1.5" fill="#34D399" opacity="0.72"/>
-  <rect x="585" y="202" width="152" height="46" rx="10" fill="#17171D" stroke="#A78BFA" stroke-width="1.25" stroke-opacity="0.48"/>
-  <rect x="585" y="202" width="5" height="46" rx="2.5" fill="#A78BFA" opacity="0.7"/>
-  <circle cx="603" cy="218" r="5.5" fill="#A78BFA" opacity="0.65"/>
-  <rect x="616" y="209" width="32" height="3" rx="1.5" fill="#8E8E93"/>
-  <rect x="616" y="217" width="88" height="5" rx="2.5" fill="#F5F5F7" opacity="0.82"/>
-  <rect x="616" y="228" width="60" height="3" rx="1.5" fill="#48484A" opacity="0.45"/>
-  <rect x="529" y="94" width="34" height="10" rx="5" fill="#17171D" stroke="#4B9EFF" stroke-width="1" stroke-opacity="0.35"/>
-  <rect x="529" y="94" width="3" height="10" rx="1.5" fill="#4B9EFF" opacity="0.6"/>
-  <rect x="535" y="97.5" width="22" height="3" rx="1.5" fill="#F5F5F7" opacity="0.45"/>
-  <rect x="529" y="166" width="34" height="10" rx="5" fill="#17171D" stroke="#34D399" stroke-width="1" stroke-opacity="0.35"/>
-  <rect x="529" y="166" width="3" height="10" rx="1.5" fill="#34D399" opacity="0.6"/>
-  <rect x="535" y="169.5" width="22" height="3" rx="1.5" fill="#F5F5F7" opacity="0.45"/>
-  <rect x="529" y="226" width="34" height="10" rx="5" fill="#17171D" stroke="#A78BFA" stroke-width="1" stroke-opacity="0.35"/>
-  <rect x="529" y="226" width="3" height="10" rx="1.5" fill="#A78BFA" opacity="0.6"/>
-  <rect x="535" y="229.5" width="22" height="3" rx="1.5" fill="#F5F5F7" opacity="0.45"/>
-  <rect x="494" y="92" width="340" height="14" rx="7" fill="#4B9EFF" opacity="0.06"/>
-  <rect x="494" y="95" width="340" height="6" rx="3" fill="url(#scan_f)" filter="url(#gB_f)"/>
-  <rect x="494" y="164" width="280" height="12" rx="6" fill="#34D399" opacity="0.05"/>
-  <rect x="494" y="167" width="280" height="5" rx="2.5" fill="#34D399" opacity="0.22" filter="url(#gG_f)"/>
-  <circle cx="320" cy="34" r="3" fill="#4B9EFF" opacity="0.17"/>
-  <circle cx="346" cy="22" r="2" fill="#4B9EFF" opacity="0.11"/>
-  <circle cx="360" cy="38" r="2.5" fill="#A78BFA" opacity="0.11"/>
-  <line x1="323" y1="34" x2="344" y2="24" stroke="#4B9EFF" stroke-width="0.75" stroke-opacity="0.09"/>
-  <line x1="323" y1="36" x2="358" y2="38" stroke="#A78BFA" stroke-width="0.75" stroke-opacity="0.09"/>
-  <circle cx="60" cy="240" r="3" fill="#A78BFA" opacity="0.17"/>
-  <circle cx="44" cy="256" r="2" fill="#A78BFA" opacity="0.11"/>
-  <circle cx="76" cy="262" r="2.5" fill="#4B9EFF" opacity="0.11"/>
-  <line x1="60" y1="243" x2="45" y2="254" stroke="#A78BFA" stroke-width="0.75" stroke-opacity="0.09"/>
-  <line x1="63" y1="243" x2="75" y2="260" stroke="#4B9EFF" stroke-width="0.75" stroke-opacity="0.09"/>
+
+  <rect x="36" y="137" width="808" height="2.5" rx="1.25" fill="url(#tl2)"/>
+
+  <!-- EVENT 1: Oil Change -->
+  <circle cx="108" cy="138" r="13" fill="#17171D" stroke="#4B9EFF" stroke-width="2" stroke-opacity="0.7"/>
+  <circle cx="108" cy="138" r="5.5" fill="#4B9EFF" opacity="0.9"/>
+  <rect x="72" y="34" width="72" height="72" rx="14" fill="#17171D" stroke="#4B9EFF" stroke-width="1.25" stroke-opacity="0.45"/>
+  <path d="M108,50 Q120,66 120,72 C120,80 115,86 108,86 C101,86 96,80 96,72 C96,66 108,50 108,50 Z"
+        fill="none" stroke="#4B9EFF" stroke-width="2" stroke-linecap="round" stroke-opacity="0.85"/>
+  <line x1="108" y1="106" x2="108" y2="123" stroke="#4B9EFF" stroke-width="1.25" stroke-opacity="0.3" stroke-dasharray="4 3"/>
+  <text x="108" y="168" text-anchor="middle" font-size="12" fill="#636366" font-family="-apple-system,sans-serif">Jan 2023</text>
+  <text x="108" y="186" text-anchor="middle" font-size="13" fill="#4B9EFF" font-family="-apple-system,sans-serif" font-weight="600">Oil Change</text>
+  <text x="108" y="204" text-anchor="middle" font-size="12" fill="#48484A" font-family="-apple-system,sans-serif">$68</text>
+
+  <!-- EVENT 2: New Tires -->
+  <circle cx="254" cy="138" r="13" fill="#17171D" stroke="#F59E0B" stroke-width="2" stroke-opacity="0.7"/>
+  <circle cx="254" cy="138" r="5.5" fill="#F59E0B" opacity="0.9"/>
+  <rect x="218" y="34" width="72" height="72" rx="14" fill="#17171D" stroke="#F59E0B" stroke-width="1.25" stroke-opacity="0.45"/>
+  <circle cx="254" cy="70" r="18" fill="none" stroke="#F59E0B" stroke-width="2" stroke-opacity="0.8"/>
+  <circle cx="254" cy="70" r="7" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="254" y1="106" x2="254" y2="123" stroke="#F59E0B" stroke-width="1.25" stroke-opacity="0.3" stroke-dasharray="4 3"/>
+  <text x="254" y="168" text-anchor="middle" font-size="12" fill="#636366" font-family="-apple-system,sans-serif">Apr 2023</text>
+  <text x="254" y="186" text-anchor="middle" font-size="13" fill="#F59E0B" font-family="-apple-system,sans-serif" font-weight="600">New Tires</text>
+  <text x="254" y="204" text-anchor="middle" font-size="12" fill="#48484A" font-family="-apple-system,sans-serif">$420</text>
+
+  <!-- EVENT 3: Brake Pads -->
+  <circle cx="400" cy="138" r="13" fill="#17171D" stroke="#EF4444" stroke-width="2" stroke-opacity="0.7"/>
+  <circle cx="400" cy="138" r="5.5" fill="#EF4444" opacity="0.9"/>
+  <rect x="364" y="34" width="72" height="72" rx="14" fill="#17171D" stroke="#EF4444" stroke-width="1.25" stroke-opacity="0.45"/>
+  <rect x="388" y="52" width="6" height="36" rx="3" fill="none" stroke="#EF4444" stroke-width="2" stroke-opacity="0.8"/>
+  <rect x="400" y="52" width="6" height="36" rx="3" fill="none" stroke="#EF4444" stroke-width="2" stroke-opacity="0.8"/>
+  <rect x="412" y="52" width="6" height="36" rx="3" fill="none" stroke="#EF4444" stroke-width="2" stroke-opacity="0.8"/>
+  <line x1="400" y1="106" x2="400" y2="123" stroke="#EF4444" stroke-width="1.25" stroke-opacity="0.3" stroke-dasharray="4 3"/>
+  <text x="400" y="168" text-anchor="middle" font-size="12" fill="#636366" font-family="-apple-system,sans-serif">Aug 2023</text>
+  <text x="400" y="186" text-anchor="middle" font-size="13" fill="#EF4444" font-family="-apple-system,sans-serif" font-weight="600">Brake Pads</text>
+  <text x="400" y="204" text-anchor="middle" font-size="12" fill="#48484A" font-family="-apple-system,sans-serif">$185</text>
+
+  <!-- EVENT 4: Inspection -->
+  <circle cx="546" cy="138" r="13" fill="#17171D" stroke="#34D399" stroke-width="2" stroke-opacity="0.7"/>
+  <circle cx="546" cy="138" r="5.5" fill="#34D399" opacity="0.9"/>
+  <rect x="510" y="34" width="72" height="72" rx="14" fill="#17171D" stroke="#34D399" stroke-width="1.25" stroke-opacity="0.45"/>
+  <path d="M532,70 L542,82 L562,56" fill="none" stroke="#34D399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.88"/>
+  <line x1="546" y1="106" x2="546" y2="123" stroke="#34D399" stroke-width="1.25" stroke-opacity="0.3" stroke-dasharray="4 3"/>
+  <text x="546" y="168" text-anchor="middle" font-size="12" fill="#636366" font-family="-apple-system,sans-serif">Dec 2023</text>
+  <text x="546" y="186" text-anchor="middle" font-size="13" fill="#34D399" font-family="-apple-system,sans-serif" font-weight="600">Inspection</text>
+  <text x="546" y="204" text-anchor="middle" font-size="12" fill="#48484A" font-family="-apple-system,sans-serif">$95</text>
+
+  <!-- EVENT 5: Oil Change -->
+  <circle cx="692" cy="138" r="13" fill="#17171D" stroke="#4B9EFF" stroke-width="2" stroke-opacity="0.7"/>
+  <circle cx="692" cy="138" r="5.5" fill="#4B9EFF" opacity="0.9"/>
+  <rect x="656" y="34" width="72" height="72" rx="14" fill="#17171D" stroke="#4B9EFF" stroke-width="1.25" stroke-opacity="0.45"/>
+  <path d="M692,50 Q704,66 704,72 C704,80 699,86 692,86 C685,86 680,80 680,72 C680,66 692,50 692,50 Z"
+        fill="none" stroke="#4B9EFF" stroke-width="2" stroke-linecap="round" stroke-opacity="0.85"/>
+  <line x1="692" y1="106" x2="692" y2="123" stroke="#4B9EFF" stroke-width="1.25" stroke-opacity="0.3" stroke-dasharray="4 3"/>
+  <text x="692" y="168" text-anchor="middle" font-size="12" fill="#636366" font-family="-apple-system,sans-serif">Mar 2024</text>
+  <text x="692" y="186" text-anchor="middle" font-size="13" fill="#4B9EFF" font-family="-apple-system,sans-serif" font-weight="600">Oil Change</text>
+  <text x="692" y="204" text-anchor="middle" font-size="12" fill="#48484A" font-family="-apple-system,sans-serif">$72</text>
+
+  <!-- TODAY -->
+  <circle cx="824" cy="138" r="22" fill="#4B9EFF" opacity="0.07"/>
+  <circle cx="824" cy="138" r="13" fill="#17171D" stroke="#4B9EFF" stroke-width="2" stroke-opacity="0.85"/>
+  <circle cx="824" cy="138" r="5.5" fill="#4B9EFF"/>
+  <line x1="824" y1="106" x2="824" y2="123" stroke="#4B9EFF" stroke-width="1.25" stroke-opacity="0.4" stroke-dasharray="4 3"/>
+  <text x="824" y="168" text-anchor="middle" font-size="12" fill="#4B9EFF" font-family="-apple-system,sans-serif" font-weight="600">Today</text>
+  <rect x="766" y="180" width="116" height="26" rx="13" fill="#4B9EFF" opacity="0.12" stroke="#4B9EFF" stroke-opacity="0.35" stroke-width="0.75"/>
+  <text x="824" y="197" text-anchor="middle" font-size="11" fill="#4B9EFF" font-family="-apple-system,sans-serif" font-weight="600">5 records · $840</text>
+
+  <!-- Complete badge -->
+  <rect x="720" y="20" width="140" height="30" rx="10" fill="#17171D" stroke="#34D399" stroke-width="1" stroke-opacity="0.45"/>
+  <path d="M734,35 L740,41 L754,27" fill="none" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.85"/>
+  <text x="808" y="40" text-anchor="middle" font-size="11" fill="#34D399" font-family="-apple-system,sans-serif" font-weight="600" opacity="0.8">Complete history</text>
+
+  <!-- Bottom label -->
+  <text x="440" y="252" text-anchor="middle" font-size="11" fill="#636366" opacity="0.5" font-family="-apple-system,sans-serif" letter-spacing="0.06em">EVERY SERVICE · EVERY DATE · EVERY DOLLAR</text>
 </svg>
