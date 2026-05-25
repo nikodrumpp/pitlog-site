@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="100%" height="100%">
   <defs>
     <linearGradient id="cg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#1E2A3E"/>
@@ -10,20 +10,17 @@
     </linearGradient>
   </defs>
   <ellipse cx="180" cy="198" rx="130" ry="9" fill="#4B9EFF" opacity="0.10"/>
-  <path d="M 54,178 L 52,162 C 52,148 64,136 78,130 L 102,118 L 118,104 L 132,94 L 228,94 L 246,106 L 264,120 L 288,144 L 308,164 L 310,178 Z"
-        fill="url(#cg)" stroke="#4B9EFF" stroke-width="0.75" stroke-opacity="0.32"/>
+  <path d="M 54,178 L 52,162 C 52,148 64,136 78,130 L 102,118 L 118,104 L 132,94 L 228,94 L 246,106 L 264,120 L 288,144 L 308,164 L 310,178 Z" fill="url(#cg)" stroke="#4B9EFF" stroke-width="0.75" stroke-opacity="0.32"/>
   <path d="M 76,178 C 76,173 83,167 94,167 C 105,167 112,173 112,178 Z" fill="#06070E"/>
   <path d="M 250,178 C 250,173 257,167 268,167 C 279,167 286,173 286,178 Z" fill="#06070E"/>
   <rect x="62" y="170" width="238" height="5" rx="2.5" fill="#0A0D18" stroke="#4B9EFF" stroke-width="0.4" stroke-opacity="0.15"/>
   <path d="M 116,105 L 127,95 L 226,95 L 242,106 L 229,114 L 128,114 Z" fill="#09101A"/>
   <path d="M 118,104 L 128,95 L 225,95 L 240,104 L 228,112 L 130,112 Z" fill="#162438" opacity="0.9"/>
-  <path d="M 54,150 L 57,136 C 58,132 64,128 70,128 L 76,128 L 76,144 L 56,151 Z"
-        fill="#0A0A14" stroke="#4B9EFF" stroke-width="0.75" stroke-opacity="0.35"/>
+  <path d="M 54,150 L 57,136 C 58,132 64,128 70,128 L 76,128 L 76,144 L 56,151 Z" fill="#0A0A14" stroke="#4B9EFF" stroke-width="0.75" stroke-opacity="0.35"/>
   <path d="M 56,148 C 58,140 62,134 67,130" fill="none" stroke="#4B9EFF" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.7"/>
   <circle cx="73" cy="130" r="3.5" fill="#4B9EFF" opacity="0.55"/>
   <circle cx="73" cy="130" r="1.5" fill="#FFF" opacity="0.7"/>
-  <path d="M 302,160 L 307,147 L 310,147 L 310,178 L 302,178 Z"
-        fill="#120808" stroke="#EF4444" stroke-width="0.5" stroke-opacity="0.4"/>
+  <path d="M 302,160 L 307,147 L 310,147 L 310,178 L 302,178 Z" fill="#120808" stroke="#EF4444" stroke-width="0.5" stroke-opacity="0.4"/>
   <rect x="303" y="150" width="6" height="4" rx="1" fill="#EF4444" opacity="0.7"/>
   <circle cx="94" cy="184" r="20" fill="#070810" stroke="#1C1C28" stroke-width="1.2"/>
   <circle cx="94" cy="184" r="13" fill="url(#rg)"/>
@@ -48,5 +45,4 @@
   <circle cx="268" cy="184" r="4.5" fill="#0F0F1A"/>
   <circle cx="268" cy="184" r="1.5" fill="#4B9EFF" opacity="0.4"/>
   <text x="180" y="70" text-anchor="middle" font-size="56" font-weight="700" fill="#8E8E93" opacity="0.50" font-family="-apple-system,sans-serif">?</text>
-  <text x="18" y="228" font-size="11" fill="#8E8E93" opacity="0.55" font-family="-apple-system,sans-serif" font-weight="600" letter-spacing="0.08em">NO PROOF</text>
 </svg>
