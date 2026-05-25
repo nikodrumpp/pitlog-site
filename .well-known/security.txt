@@ -1,0 +1,3 @@
+Contact: mailto:support@botneversleeps.com
+Preferred-Languages: en
+Canonical: https://docaro.botneversleeps.com/.well-known/security.txt
