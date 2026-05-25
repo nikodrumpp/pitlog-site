@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <rect width="80" height="80" rx="18" fill="#0D0D10"/>
+  <ellipse cx="40" cy="44" rx="30" ry="20" fill="#8E8E93" opacity="0.04"/>
+  <path d="M14 56 L16 48 C16 42 19 38 23 36 L32 32 L35 29 L37 27 L43 27 L46 29 L50 34 L58 42 L60 48 L60 56 Z"
+        fill="#1E2A3E" stroke="#4B9EFF" stroke-width="1" stroke-opacity="0.35"/>
+  <path d="M24 46 C24 44 26 42 30 42 C34 42 36 44 36 46 Z" fill="#07080E"/>
+  <path d="M44 46 C44 44 46 42 50 42 C54 42 56 44 56 46 Z" fill="#07080E"/>
+  <path d="M35 29 L37 27 L43 27 L45 29 L44 31 L37 31 Z" fill="#162438"/>
+  <path d="M37 27 L40 28.5 L43 27" fill="none" stroke="#4B9EFF" stroke-width="0.75" stroke-opacity="0.3"/>
+  <rect x="14" y="52" width="52" height="5" rx="2.5" fill="#0A0D18" stroke="#4B9EFF" stroke-width="0.5" stroke-opacity="0.18"/>
+  <circle cx="30" cy="60" r="6" fill="#080810" stroke="#48484A" stroke-width="1"/>
+  <circle cx="50" cy="60" r="6" fill="#080810" stroke="#48484A" stroke-width="1"/>
+  <ellipse cx="40" cy="56" rx="15" ry="4" fill="#8E8E93" opacity="0.12"/>
+  <text x="40" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#8E8E93" opacity="0.65" font-family="system-ui, -apple-system, sans-serif">?</text>
+  <circle cx="12" cy="22" r="2" fill="#8E8E93" opacity="0.18"/>
+  <circle cx="68" cy="54" r="1.5" fill="#4B9EFF" opacity="0.14"/>
+</svg>

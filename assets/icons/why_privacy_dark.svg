@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <filter id="g2" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="80" height="80" rx="18" fill="#0D0D10"/>
+  <ellipse cx="40" cy="40" rx="30" ry="28" fill="#34D399" opacity="0.04"/>
+  <circle cx="40" cy="40" r="26" fill="none" stroke="#34D399" stroke-width="0.75" stroke-opacity="0.10"/>
+  <circle cx="40" cy="40" r="19" fill="none" stroke="#34D399" stroke-width="0.75" stroke-opacity="0.18"/>
+  <path d="M26 37 C26 29 32 23 40 21 C48 23 54 29 54 37 L54 47 C54 52 48 57 40 59 C32 57 26 52 26 47 Z"
+        fill="#17171D" stroke="#34D399" stroke-width="1.25" stroke-opacity="0.55"/>
+  <path d="M26 37 C26 29 32 23 40 21 C48 23 54 29 54 37"
+        fill="#34D399" opacity="0.06"/>
+  <rect x="32" y="41" width="16" height="12" rx="4" fill="#34D399" opacity="0.82" filter="url(#g2)"/>
+  <rect x="32" y="41" width="16" height="12" rx="4" fill="#34D399" opacity="0.82"/>
+  <path d="M36 41 L36 37 C36 34.2 38 32 40 32 C42 32 44 34.2 44 37 L44 41" fill="none" stroke="#34D399" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="40" cy="47" r="1.5" fill="#0D1520"/>
+  <circle cx="15" cy="18" r="1.5" fill="#34D399" opacity="0.18"/>
+  <circle cx="65" cy="62" r="1.2" fill="#4B9EFF" opacity="0.14"/>
+  <line x1="15" y1="18" x2="22" y2="24" stroke="#34D399" stroke-width="0.5" stroke-opacity="0.12"/>
+</svg>
