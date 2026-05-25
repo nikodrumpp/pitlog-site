@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg_pdf" cx="42%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0D0D10"/>
+    </radialGradient>
+    <linearGradient id="paper_pdf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAFAF8"/>
+      <stop offset="100%" stop-color="#F0EDE6"/>
+    </linearGradient>
+    <linearGradient id="docHdr_pdf" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1A2744"/>
+      <stop offset="100%" stop-color="#0F1C38"/>
+    </linearGradient>
+    <linearGradient id="totalRow_pdf" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="gBlue_p" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gGreen_p" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gAmber_p" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow_p">
+      <feDropShadow dx="4" dy="8" stdDeviation="14" flood-color="#000" flood-opacity="0.50"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="72" fill="url(#bg_pdf)"/>
+  <ellipse cx="210" cy="195" rx="130" ry="100" fill="#F59E0B" opacity="0.04"/>
+  <rect x="155" y="64" width="162" height="218" rx="8" fill="#E8E4DB" opacity="0.55"/>
+  <rect x="148" y="68" width="162" height="218" rx="8" fill="#000" opacity="0.01" filter="url(#shadow_p)"/>
+  <rect x="148" y="68" width="162" height="218" rx="8" fill="url(#paper_pdf)"/>
+  <rect x="148" y="68" width="162" height="30" rx="8" fill="url(#docHdr_pdf)"/>
+  <rect x="148" y="84" width="162" height="14" fill="url(#docHdr_pdf)"/>
+  <rect x="160" y="76" width="54" height="3" rx="1.5" fill="#FFF" opacity="0.55"/>
+  <rect x="256" y="74" width="46" height="16" rx="8" fill="#F59E0B" opacity="0.28" filter="url(#gAmber_p)"/>
+  <rect x="256" y="74" width="46" height="16" rx="8" fill="#F59E0B"/>
+  <rect x="263" y="78" width="32" height="3" rx="1.5" fill="#1C1C1E" opacity="0.72"/>
+  <rect x="148" y="122" width="162" height="1" rx="0.5" fill="#C8C4BE" opacity="0.48"/>
+  <rect x="160" y="136" width="32" height="3" rx="1.5" fill="#636366" opacity="0.50"/>
+  <rect x="198" y="136" width="52" height="3" rx="1.5" fill="#3A3A3C" opacity="0.58"/>
+  <rect x="270" y="136" width="30" height="3" rx="1.5" fill="#3A3A3C" opacity="0.58"/>
+  <rect x="160" y="150" width="32" height="3" rx="1.5" fill="#636366" opacity="0.50"/>
+  <rect x="198" y="150" width="44" height="3" rx="1.5" fill="#3A3A3C" opacity="0.58"/>
+  <rect x="270" y="150" width="34" height="3" rx="1.5" fill="#3A3A3C" opacity="0.58"/>
+  <rect x="160" y="164" width="32" height="3" rx="1.5" fill="#636366" opacity="0.50"/>
+  <rect x="198" y="164" width="60" height="3" rx="1.5" fill="#3A3A3C" opacity="0.58"/>
+  <rect x="270" y="164" width="28" height="3" rx="1.5" fill="#3A3A3C" opacity="0.58"/>
+  <rect x="160" y="178" width="32" height="3" rx="1.5" fill="#636366" opacity="0.50"/>
+  <rect x="198" y="178" width="38" height="3" rx="1.5" fill="#3A3A3C" opacity="0.58"/>
+  <rect x="270" y="178" width="32" height="3" rx="1.5" fill="#3A3A3C" opacity="0.58"/>
+  <rect x="148" y="204" width="162" height="1" rx="0.5" fill="#C8C4BE" opacity="0.48"/>
+  <rect x="148" y="207" width="162" height="22" fill="url(#totalRow_pdf)"/>
+  <rect x="160" y="213" width="28" height="4" rx="2" fill="#34D399" opacity="0.55"/>
+  <rect x="258" y="211" width="44" height="8" rx="4" fill="#34D399" opacity="0.18" stroke="#34D399" stroke-opacity="0.32" stroke-width="0.75"/>
+  <rect x="262" y="214" width="36" height="3" rx="1.5" fill="#34D399" opacity="0.75"/>
+  <circle cx="179" cy="247" r="12" fill="#34D399" opacity="0.12" filter="url(#gGreen_p)"/>
+  <circle cx="179" cy="247" r="10" fill="none" stroke="#34D399" stroke-width="1.25" stroke-opacity="0.55"/>
+  <path d="M173,247 L177,251 L185,243" fill="none" stroke="#34D399" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.82"/>
+  <rect x="197" y="243" width="48" height="3" rx="1.5" fill="#34D399" opacity="0.45"/>
+  <circle cx="340" cy="312" r="22" fill="#4B9EFF" opacity="0.10" filter="url(#gBlue_p)"/>
+  <circle cx="340" cy="312" r="18" fill="#17171D" stroke="#4B9EFF" stroke-width="1.25" stroke-opacity="0.45"/>
+  <line x1="340" y1="303" x2="340" y2="315" stroke="#4B9EFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M334,311 L340,318 L346,311" fill="none" stroke="#4B9EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="334" y1="321" x2="346" y2="321" stroke="#4B9EFF" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.60"/>
+</svg>
