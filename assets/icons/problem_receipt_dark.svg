@@ -1,78 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="100%" height="100%">
   <defs>
-    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="p1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#F5F3EE"/>
-      <stop offset="100%" stop-color="#E8E4DB"/>
+      <stop offset="100%" stop-color="#E4E0D8"/>
     </linearGradient>
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="6" stdDeviation="14" flood-color="#000" flood-opacity="0.45"/>
-    </filter>
+    <linearGradient id="p2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EFECE5"/>
+      <stop offset="100%" stop-color="#DDD9D0"/>
+    </linearGradient>
+    <linearGradient id="p3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8E4DC"/>
+      <stop offset="100%" stop-color="#D6D2CA"/>
+    </linearGradient>
   </defs>
-
-  <!-- Receipt 1 — back, most tilted, faded -->
-  <g transform="rotate(12, 90, 95)" opacity="0.35">
-    <rect x="28" y="28" width="120" height="154" rx="5" fill="url(#paper)"/>
-    <rect x="28" y="28" width="120" height="12" rx="5" fill="#DDD9D0"/>
-    <rect x="38" y="50" width="68" height="4" rx="2" fill="#1C1C1E" opacity="0.4"/>
-    <rect x="38" y="60" width="48" height="3" rx="1.5" fill="#636366" opacity="0.35"/>
-    <rect x="38" y="70" width="58" height="3" rx="1.5" fill="#636366" opacity="0.3"/>
-    <rect x="38" y="80" width="44" height="3" rx="1.5" fill="#636366" opacity="0.28"/>
+  <g transform="rotate(-14,95,135)" opacity="0.28">
+    <rect x="48" y="30" width="94" height="130" rx="5" fill="url(#p3)"/>
+    <rect x="48" y="30" width="94" height="10" rx="5" fill="#CCC8BE"/>
+    <rect x="58" y="50" width="56" height="4" rx="2" fill="#555" opacity="0.35"/>
+    <rect x="58" y="60" width="38" height="3" rx="1.5" fill="#777" opacity="0.3"/>
+    <rect x="58" y="70" width="46" height="3" rx="1.5" fill="#777" opacity="0.28"/>
   </g>
-
-  <!-- Receipt 2 — middle -->
-  <g transform="rotate(-6, 160, 90)" opacity="0.6">
-    <rect x="98" y="20" width="120" height="154" rx="5" fill="url(#paper)"/>
-    <rect x="98" y="20" width="120" height="12" rx="5" fill="#DDD9D0"/>
-    <rect x="110" y="42" width="72" height="4" rx="2" fill="#1C1C1E" opacity="0.45"/>
-    <rect x="110" y="52" width="52" height="3" rx="1.5" fill="#636366" opacity="0.38"/>
-    <rect x="110" y="61" width="62" height="3" rx="1.5" fill="#636366" opacity="0.33"/>
-    <rect x="110" y="70" width="44" height="3" rx="1.5" fill="#636366" opacity="0.3"/>
-    <line x1="106" y1="82" x2="212" y2="82" stroke="#C0BBB2" stroke-width="0.75" opacity="0.5"/>
-    <rect x="110" y="90" width="36" height="6" rx="3" fill="#1C1C1E" opacity="0.45"/>
-    <rect x="166" y="88" width="38" height="10" rx="5" fill="#1C1C1E" opacity="0.4"/>
+  <g transform="rotate(-5,150,130)" opacity="0.55">
+    <rect x="100" y="22" width="100" height="138" rx="6" fill="url(#p2)"/>
+    <rect x="100" y="22" width="100" height="12" rx="6" fill="#CBC7BE"/>
+    <rect x="112" y="44" width="64" height="5" rx="2.5" fill="#333" opacity="0.4"/>
+    <rect x="112" y="56" width="44" height="3" rx="1.5" fill="#666" opacity="0.35"/>
+    <rect x="112" y="65" width="52" height="3" rx="1.5" fill="#666" opacity="0.3"/>
+    <line x1="108" y1="76" x2="192" y2="76" stroke="#BFBBB2" stroke-width="0.75" opacity="0.5"/>
+    <rect x="112" y="84" width="36" height="3" rx="1.5" fill="#444" opacity="0.4"/>
+    <rect x="160" y="82" width="28" height="8" rx="4" fill="#444" opacity="0.38"/>
+    <rect x="108" y="104" width="76" height="20" rx="3" fill="#E0DDD6"/>
+    <g fill="#333" opacity="0.35">
+      <rect x="112" y="107" width="2" height="14"/><rect x="116" y="107" width="1" height="14"/>
+      <rect x="119" y="107" width="3" height="14"/><rect x="124" y="107" width="1" height="14"/>
+      <rect x="127" y="107" width="2" height="14"/><rect x="131" y="107" width="4" height="14"/>
+      <rect x="137" y="107" width="1" height="14"/><rect x="140" y="107" width="2" height="14"/>
+      <rect x="144" y="107" width="3" height="14"/><rect x="149" y="107" width="1" height="14"/>
+      <rect x="152" y="107" width="2" height="14"/><rect x="156" y="107" width="3" height="14"/>
+      <rect x="161" y="107" width="1" height="14"/><rect x="164" y="107" width="2" height="14"/>
+      <rect x="168" y="107" width="2" height="14"/>
+    </g>
   </g>
-
-  <!-- Main receipt — front, slightly crumpled -->
-  <g filter="url(#shadow)">
-    <rect x="110" y="12" width="128" height="166" rx="6" fill="url(#paper)"/>
+  <g transform="rotate(5,230,125)">
+    <rect x="168" y="16" width="110" height="152" rx="7" fill="url(#p1)"/>
+    <path d="M168,20 Q175,12 182,18 Q189,24 196,16 Q203,10 210,17 Q217,24 224,15 Q231,9 238,17 Q245,24 252,15 Q259,9 266,17 Q273,24 278,22 L278,24 L168,24 Z" fill="#DDD9D0"/>
+    <rect x="168" y="16" width="110" height="14" rx="7" fill="#DDD9D0"/>
+    <rect x="180" y="40" width="72" height="5" rx="2.5" fill="#222" opacity="0.5"/>
+    <rect x="180" y="52" width="50" height="3.5" rx="1.75" fill="#555" opacity="0.38"/>
+    <line x1="176" y1="62" x2="270" y2="62" stroke="#BFBBB2" stroke-width="0.75" opacity="0.5"/>
+    <rect x="180" y="70" width="60" height="3" rx="1.5" fill="#333" opacity="0.45"/>
+    <rect x="248" y="70" width="24" height="3" rx="1.5" fill="#333" opacity="0.45"/>
+    <rect x="180" y="80" width="48" height="3" rx="1.5" fill="#666" opacity="0.38"/>
+    <rect x="248" y="80" width="18" height="3" rx="1.5" fill="#666" opacity="0.38"/>
+    <rect x="180" y="90" width="54" height="3" rx="1.5" fill="#666" opacity="0.35"/>
+    <rect x="248" y="90" width="20" height="3" rx="1.5" fill="#666" opacity="0.35"/>
+    <line x1="176" y1="102" x2="270" y2="102" stroke="#BFBBB2" stroke-width="0.75" opacity="0.5"/>
+    <rect x="180" y="110" width="44" height="5" rx="2.5" fill="#222" opacity="0.5"/>
+    <rect x="238" y="108" width="36" height="10" rx="5" fill="#222" opacity="0.45"/>
+    <rect x="176" y="130" width="96" height="28" rx="3" fill="#DEDAD3"/>
+    <g fill="#222" opacity="0.35">
+      <rect x="180" y="134" width="2" height="20"/><rect x="184" y="134" width="1" height="20"/>
+      <rect x="187" y="134" width="3" height="20"/><rect x="192" y="134" width="1" height="20"/>
+      <rect x="195" y="134" width="2" height="20"/><rect x="199" y="134" width="4" height="20"/>
+      <rect x="205" y="134" width="1" height="20"/><rect x="208" y="134" width="2" height="20"/>
+      <rect x="212" y="134" width="3" height="20"/><rect x="217" y="134" width="1" height="20"/>
+      <rect x="220" y="134" width="2" height="20"/><rect x="224" y="134" width="3" height="20"/>
+      <rect x="229" y="134" width="1" height="20"/><rect x="232" y="134" width="2" height="20"/>
+      <rect x="236" y="134" width="4" height="20"/><rect x="242" y="134" width="1" height="20"/>
+      <rect x="245" y="134" width="2" height="20"/><rect x="249" y="134" width="3" height="20"/>
+      <rect x="254" y="134" width="1" height="20"/><rect x="257" y="134" width="2" height="20"/>
+      <rect x="261" y="134" width="3" height="20"/>
+    </g>
+    <path d="M168,168 Q174,162 180,168 Q186,174 192,166 Q198,160 204,167 Q210,174 216,165 Q222,158 228,166 Q234,173 240,164 Q246,157 252,165 Q258,172 264,163 Q268,158 272,165 Q276,172 278,170 L278,174 L168,174 Z" fill="#D8D4CC"/>
+    <circle cx="286" cy="26" r="8" fill="#F59E0B" opacity="0.9"/>
+    <text x="286" y="30" text-anchor="middle" font-size="10" font-weight="700" fill="#7C4A00" font-family="-apple-system,sans-serif">!</text>
   </g>
-  <!-- Torn/crumpled top edge -->
-  <path d="M110,18 Q118,12 126,17 Q134,22 142,14 Q150,8 158,15 Q166,22 174,13 Q182,7 190,14 Q198,21 206,13 Q214,8 222,14 Q230,20 238,16 L238,18 L110,18 Z"
-        fill="#EDE9E0"/>
-  <rect x="110" y="12" width="128" height="14" rx="6" fill="#E0DDD4"/>
-  <!-- Receipt content -->
-  <rect x="122" y="36" width="72" height="5" rx="2.5" fill="#1C1C1E" opacity="0.52"/>
-  <rect x="122" y="48" width="52" height="3.5" rx="1.75" fill="#636366" opacity="0.42"/>
-  <line x1="118" y1="58" x2="230" y2="58" stroke="#C0BBB2" stroke-width="0.75" opacity="0.55"/>
-  <rect x="122" y="65" width="60" height="3" rx="1.5" fill="#3A3A3C" opacity="0.48"/>
-  <rect x="194" y="65" width="32" height="3" rx="1.5" fill="#3A3A3C" opacity="0.48"/>
-  <rect x="122" y="74" width="48" height="3" rx="1.5" fill="#636366" opacity="0.38"/>
-  <rect x="194" y="74" width="26" height="3" rx="1.5" fill="#636366" opacity="0.38"/>
-  <rect x="122" y="83" width="54" height="3" rx="1.5" fill="#636366" opacity="0.35"/>
-  <rect x="194" y="83" width="28" height="3" rx="1.5" fill="#636366" opacity="0.35"/>
-  <rect x="122" y="92" width="42" height="3" rx="1.5" fill="#636366" opacity="0.32"/>
-  <rect x="194" y="92" width="22" height="3" rx="1.5" fill="#636366" opacity="0.32"/>
-  <line x1="118" y1="102" x2="230" y2="102" stroke="#C0BBB2" stroke-width="0.75" opacity="0.55"/>
-  <rect x="122" y="109" width="44" height="5" rx="2.5" fill="#1C1C1E" opacity="0.5"/>
-  <rect x="180" y="107" width="44" height="10" rx="5" fill="#1C1C1E" opacity="0.45"/>
-  <!-- Barcode -->
-  <rect x="118" y="128" width="112" height="28" rx="3" fill="#E8E4DA"/>
-  <g fill="#1C1C1E" opacity="0.38">
-    <rect x="122" y="131" width="2" height="22"/><rect x="126" y="131" width="1" height="22"/>
-    <rect x="129" y="131" width="3" height="22"/><rect x="134" y="131" width="1" height="22"/>
-    <rect x="137" y="131" width="2" height="22"/><rect x="141" y="131" width="4" height="22"/>
-    <rect x="147" y="131" width="1" height="22"/><rect x="150" y="131" width="2" height="22"/>
-    <rect x="154" y="131" width="3" height="22"/><rect x="159" y="131" width="1" height="22"/>
-    <rect x="162" y="131" width="2" height="22"/><rect x="166" y="131" width="3" height="22"/>
-    <rect x="171" y="131" width="1" height="22"/><rect x="174" y="131" width="2" height="22"/>
-    <rect x="178" y="131" width="4" height="22"/><rect x="184" y="131" width="1" height="22"/>
-    <rect x="187" y="131" width="2" height="22"/><rect x="191" y="131" width="3" height="22"/>
-    <rect x="196" y="131" width="1" height="22"/><rect x="199" y="131" width="2" height="22"/>
-    <rect x="203" y="131" width="3" height="22"/><rect x="208" y="131" width="1" height="22"/>
-    <rect x="211" y="131" width="2" height="22"/><rect x="215" y="131" width="3" height="22"/>
-    <rect x="220" y="131" width="1" height="22"/><rect x="223" y="131" width="2" height="22"/>
-  </g>
-  <!-- Wavy bottom tear -->
-  <path d="M110,178 Q116,172 122,178 Q128,184 134,176 Q140,170 146,177 Q152,184 158,175 Q164,168 170,176 Q176,183 182,174 Q188,167 194,175 Q200,182 206,173 Q212,166 218,174 Q224,181 230,172 Q234,166 238,174 L238,180 L110,180 Z"
-        fill="#E0DDD4"/>
+  <text x="18" y="212" font-size="11" fill="#F59E0B" opacity="0.65" font-family="-apple-system,sans-serif" font-weight="600" letter-spacing="0.08em">RECEIPTS LOST</text>
 </svg>
