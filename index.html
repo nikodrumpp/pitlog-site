@@ -61,7 +61,6 @@ body { background-color: var(--bg-base); color: var(--text-primary); font-family
 .hero-headline .t-label { align-self: flex-start; }
 .hero-actions { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-sm); margin-top: var(--space-xs); }
 .hero-visual { display: flex; align-items: center; justify-content: center; }
-/* NO background, NO border, NO border-radius — illustration lives directly on page */
 .hero-svg-wrap { width: 100%; max-width: 480px; }
 .hero-svg-wrap img { width: 100%; height: auto; display: block; }
 
@@ -82,11 +81,25 @@ body { background-color: var(--bg-base); color: var(--text-primary); font-family
 /* PROBLEM */
 .problem { background: var(--bg-surface); }
 .problem-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: var(--space-lg); }
-.problem-card { background: var(--bg-card); border: 1px solid var(--border-card); border-radius: var(--radius-lg); padding: var(--space-xl); display: flex; flex-direction: column; gap: var(--space-md); transition: border-color 0.2s; }
+.problem-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  transition: border-color 0.2s;
+}
 .problem-card:hover { border-color: var(--border-accent); }
-.problem-card-icon { width: 52px; height: 52px; flex-shrink: 0; border-radius: var(--radius-sm); background: var(--bg-elevated); border: 1px solid var(--border-card); overflow: hidden; display: flex; align-items: center; justify-content: center; }
-.problem-card-icon img { width: 52px; height: 52px; display: block; flex-shrink: 0; }
-.problem-card-content { display: flex; flex-direction: column; gap: var(--space-sm); }
+/* Illustration fills top of card, no bg, no border */
+.problem-card-visual {
+  width: 100%;
+  line-height: 0;
+}
+.problem-card-visual img { width: 100%; height: auto; display: block; }
+.problem-card-content {
+  padding: var(--space-lg) var(--space-xl) var(--space-xl);
+  display: flex; flex-direction: column; gap: var(--space-sm);
+}
 
 /* SOLUTION */
 .solution-steps { display: grid; grid-template-columns: repeat(3,1fr); gap: var(--space-lg); position: relative; }
@@ -146,7 +159,6 @@ body { background-color: var(--bg-base); color: var(--text-primary); font-family
 .btn-secondary:hover { border-color: var(--border-accent); color: var(--text-primary); }
 .cancel-line { font-size: 12px; color: var(--text-tertiary); text-align: center; }
 
-/* FINAL CTA */
 .final-cta { text-align: center; padding: var(--space-4xl) 0; display: flex; flex-direction: column; align-items: center; gap: var(--space-xl); }
 .final-cta .t-h1 { max-width: var(--text-width); margin: 0 auto; }
 .final-cta-actions { display: flex; flex-direction: column; align-items: center; gap: var(--space-sm); }
@@ -237,21 +249,27 @@ body { background-color: var(--bg-base); color: var(--text-primary); font-family
     <div class="section-header"><h2 class="t-h1">Sound familiar?</h2></div>
     <div class="problem-grid">
       <div class="problem-card">
-        <div class="problem-card-icon"><img src="assets/icons/problem_receipt_dark.svg" alt="" loading="lazy" width="52" height="52"/></div>
+        <div class="problem-card-visual">
+          <img src="assets/icons/problem_receipt_dark.svg" alt="" loading="lazy"/>
+        </div>
         <div class="problem-card-content">
           <h3 class="t-h3">Receipts pile up. Then disappear.</h3>
           <p class="t-body-sm">Oil change, tires, brakes — you paid for it. But where's the proof?</p>
         </div>
       </div>
       <div class="problem-card">
-        <div class="problem-card-icon"><img src="assets/icons/problem_calendar_dark.svg" alt="" loading="lazy" width="52" height="52"/></div>
+        <div class="problem-card-visual">
+          <img src="assets/icons/problem_calendar_dark.svg" alt="" loading="lazy"/>
+        </div>
         <div class="problem-card-content">
           <h3 class="t-h3">You missed the service date. Again.</h3>
           <p class="t-body-sm">No reminder. No record. Just a warning light you didn't expect.</p>
         </div>
       </div>
       <div class="problem-card">
-        <div class="problem-card-icon"><img src="assets/icons/problem_question_dark.svg" alt="" loading="lazy" width="52" height="52"/></div>
+        <div class="problem-card-visual">
+          <img src="assets/icons/problem_question_dark.svg" alt="" loading="lazy"/>
+        </div>
         <div class="problem-card-content">
           <h3 class="t-h3">Selling your vehicle? You can't prove anything.</h3>
           <p class="t-body-sm">Buyers want service history. You have a shoebox full of paper receipts. Maybe.</p>
