@@ -108,14 +108,14 @@ body { background-color: var(--bg-base); color: var(--text-primary); font-family
 .feature-card-content { display: flex; flex-direction: column; gap: var(--space-xs); }
 
 /* WHY DOCARO — все три карточки строго одинакового размера */
-.why-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: var(--space-lg); align-items: start; }
+.why-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: var(--space-lg); }
 .why-card { background: var(--bg-card); border: 1px solid var(--border-card); border-radius: var(--radius-lg); overflow: hidden; display: flex; flex-direction: column; position: relative; transition: border-color 0.2s; }
 .why-card:first-child { border-color: var(--accent-border); }
 .why-card:first-child::before { content:''; position: absolute; top:0; left:0; bottom:0; width:3px; background: var(--accent); z-index: 1; }
 .why-card:hover { border-color: var(--border-accent); }
-.why-card-visual { width: 100%; aspect-ratio: 16/9; overflow: hidden; line-height: 0; }
+.why-card-visual { width: 100%; aspect-ratio: 16/9; overflow: hidden; line-height: 0; flex-shrink: 0; }
 .why-card-visual img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.why-card-content { padding: var(--space-lg) var(--space-xl) var(--space-xl); display: flex; flex-direction: column; gap: var(--space-sm); }
+.why-card-content { padding: var(--space-lg) var(--space-xl) var(--space-xl); display: flex; flex-direction: column; gap: var(--space-sm); flex: 1; }
 
 /* PRICING */
 .pricing { background: var(--bg-surface); }
