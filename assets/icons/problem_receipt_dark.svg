@@ -1,17 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="100%" height="100%">
   <defs>
-    <linearGradient id="p1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F5F3EE"/>
-      <stop offset="100%" stop-color="#E4E0D8"/>
-    </linearGradient>
-    <linearGradient id="p2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#EFECE5"/>
-      <stop offset="100%" stop-color="#DDD9D0"/>
-    </linearGradient>
-    <linearGradient id="p3" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8E4DC"/>
-      <stop offset="100%" stop-color="#D6D2CA"/>
-    </linearGradient>
+    <linearGradient id="p1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F5F3EE"/><stop offset="100%" stop-color="#E4E0D8"/></linearGradient>
+    <linearGradient id="p2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#EFECE5"/><stop offset="100%" stop-color="#DDD9D0"/></linearGradient>
+    <linearGradient id="p3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E8E4DC"/><stop offset="100%" stop-color="#D6D2CA"/></linearGradient>
   </defs>
   <g transform="rotate(-14,95,135)" opacity="0.28">
     <rect x="48" y="30" width="94" height="130" rx="5" fill="url(#p3)"/>
@@ -31,14 +22,10 @@
     <rect x="160" y="82" width="28" height="8" rx="4" fill="#444" opacity="0.38"/>
     <rect x="108" y="104" width="76" height="20" rx="3" fill="#E0DDD6"/>
     <g fill="#333" opacity="0.35">
-      <rect x="112" y="107" width="2" height="14"/><rect x="116" y="107" width="1" height="14"/>
-      <rect x="119" y="107" width="3" height="14"/><rect x="124" y="107" width="1" height="14"/>
-      <rect x="127" y="107" width="2" height="14"/><rect x="131" y="107" width="4" height="14"/>
-      <rect x="137" y="107" width="1" height="14"/><rect x="140" y="107" width="2" height="14"/>
-      <rect x="144" y="107" width="3" height="14"/><rect x="149" y="107" width="1" height="14"/>
-      <rect x="152" y="107" width="2" height="14"/><rect x="156" y="107" width="3" height="14"/>
-      <rect x="161" y="107" width="1" height="14"/><rect x="164" y="107" width="2" height="14"/>
-      <rect x="168" y="107" width="2" height="14"/>
+      <rect x="112" y="107" width="2" height="14"/><rect x="116" y="107" width="1" height="14"/><rect x="119" y="107" width="3" height="14"/><rect x="124" y="107" width="1" height="14"/>
+      <rect x="127" y="107" width="2" height="14"/><rect x="131" y="107" width="4" height="14"/><rect x="137" y="107" width="1" height="14"/><rect x="140" y="107" width="2" height="14"/>
+      <rect x="144" y="107" width="3" height="14"/><rect x="149" y="107" width="1" height="14"/><rect x="152" y="107" width="2" height="14"/><rect x="156" y="107" width="3" height="14"/>
+      <rect x="161" y="107" width="1" height="14"/><rect x="164" y="107" width="2" height="14"/><rect x="168" y="107" width="2" height="14"/>
     </g>
   </g>
   <g transform="rotate(5,230,125)">
@@ -59,16 +46,11 @@
     <rect x="238" y="108" width="36" height="10" rx="5" fill="#222" opacity="0.45"/>
     <rect x="176" y="130" width="96" height="28" rx="3" fill="#DEDAD3"/>
     <g fill="#222" opacity="0.35">
-      <rect x="180" y="134" width="2" height="20"/><rect x="184" y="134" width="1" height="20"/>
-      <rect x="187" y="134" width="3" height="20"/><rect x="192" y="134" width="1" height="20"/>
-      <rect x="195" y="134" width="2" height="20"/><rect x="199" y="134" width="4" height="20"/>
-      <rect x="205" y="134" width="1" height="20"/><rect x="208" y="134" width="2" height="20"/>
-      <rect x="212" y="134" width="3" height="20"/><rect x="217" y="134" width="1" height="20"/>
-      <rect x="220" y="134" width="2" height="20"/><rect x="224" y="134" width="3" height="20"/>
-      <rect x="229" y="134" width="1" height="20"/><rect x="232" y="134" width="2" height="20"/>
-      <rect x="236" y="134" width="4" height="20"/><rect x="242" y="134" width="1" height="20"/>
-      <rect x="245" y="134" width="2" height="20"/><rect x="249" y="134" width="3" height="20"/>
-      <rect x="254" y="134" width="1" height="20"/><rect x="257" y="134" width="2" height="20"/>
+      <rect x="180" y="134" width="2" height="20"/><rect x="184" y="134" width="1" height="20"/><rect x="187" y="134" width="3" height="20"/><rect x="192" y="134" width="1" height="20"/>
+      <rect x="195" y="134" width="2" height="20"/><rect x="199" y="134" width="4" height="20"/><rect x="205" y="134" width="1" height="20"/><rect x="208" y="134" width="2" height="20"/>
+      <rect x="212" y="134" width="3" height="20"/><rect x="217" y="134" width="1" height="20"/><rect x="220" y="134" width="2" height="20"/><rect x="224" y="134" width="3" height="20"/>
+      <rect x="229" y="134" width="1" height="20"/><rect x="232" y="134" width="2" height="20"/><rect x="236" y="134" width="4" height="20"/><rect x="242" y="134" width="1" height="20"/>
+      <rect x="245" y="134" width="2" height="20"/><rect x="249" y="134" width="3" height="20"/><rect x="254" y="134" width="1" height="20"/><rect x="257" y="134" width="2" height="20"/>
       <rect x="261" y="134" width="3" height="20"/>
     </g>
     <path d="M168,168 Q174,162 180,168 Q186,174 192,166 Q198,160 204,167 Q210,174 216,165 Q222,158 228,166 Q234,173 240,164 Q246,157 252,165 Q258,172 264,163 Q268,158 272,165 Q276,172 278,170 L278,174 L168,174 Z" fill="#D8D4CC"/>

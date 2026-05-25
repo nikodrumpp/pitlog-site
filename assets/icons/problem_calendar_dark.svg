@@ -16,27 +16,22 @@
   </g>
   <line x1="68" y1="80" x2="292" y2="80" stroke="#48484A" stroke-width="0.5" opacity="0.35"/>
   <g fill="#636366" opacity="0.5">
-    <circle cx="85" cy="97" r="7"/><circle cx="113" cy="97" r="7"/>
-    <circle cx="141" cy="97" r="7"/><circle cx="169" cy="97" r="7"/>
-    <circle cx="197" cy="97" r="7"/><circle cx="225" cy="97" r="7"/>
-    <circle cx="253" cy="97" r="7"/>
+    <circle cx="85" cy="97" r="7"/><circle cx="113" cy="97" r="7"/><circle cx="141" cy="97" r="7"/>
+    <circle cx="169" cy="97" r="7"/><circle cx="197" cy="97" r="7"/><circle cx="225" cy="97" r="7"/><circle cx="253" cy="97" r="7"/>
   </g>
   <g fill="#636366" opacity="0.5">
-    <circle cx="85" cy="122" r="7"/><circle cx="113" cy="122" r="7"/>
-    <circle cx="141" cy="122" r="7"/>
+    <circle cx="85" cy="122" r="7"/><circle cx="113" cy="122" r="7"/><circle cx="141" cy="122" r="7"/>
   </g>
   <circle cx="169" cy="122" r="20" fill="#EF4444" opacity="0.12"/>
   <circle cx="169" cy="122" r="13" fill="#1C0808" stroke="#EF4444" stroke-width="1.5" stroke-opacity="0.85"/>
   <line x1="164" y1="117" x2="174" y2="127" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.95"/>
   <line x1="174" y1="117" x2="164" y2="127" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.95"/>
   <g fill="#636366" opacity="0.5">
-    <circle cx="197" cy="122" r="7"/><circle cx="225" cy="122" r="7"/>
-    <circle cx="253" cy="122" r="7"/>
+    <circle cx="197" cy="122" r="7"/><circle cx="225" cy="122" r="7"/><circle cx="253" cy="122" r="7"/>
   </g>
   <g fill="#636366" opacity="0.28">
-    <circle cx="85" cy="147" r="7"/><circle cx="113" cy="147" r="7"/>
-    <circle cx="141" cy="147" r="7"/><circle cx="169" cy="147" r="7"/>
-    <circle cx="197" cy="147" r="7"/>
+    <circle cx="85" cy="147" r="7"/><circle cx="113" cy="147" r="7"/><circle cx="141" cy="147" r="7"/>
+    <circle cx="169" cy="147" r="7"/><circle cx="197" cy="147" r="7"/>
   </g>
   <rect x="228" y="158" width="50" height="28" rx="14" fill="#EF4444" opacity="0.92"/>
   <text x="253" y="176" text-anchor="middle" font-size="16" fill="white" font-family="-apple-system,sans-serif" font-weight="700">!</text>
